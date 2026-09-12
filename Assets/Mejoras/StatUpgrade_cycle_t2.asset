@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02bf987e611691f4995b02524bca9f08, type: 3}
+  m_Name: StatUpgrade_cycle_t2
+  m_EditorClassIdentifier: Assembly-CSharp::StatUpgradeSO
+  upgradeId: cycle_t2
+  displayName: Fast Beat
+  description: Speeds up the croak rhythm further.
+  icon: {fileID: 0}
+  tier: 1
+  unlockRound: 3
+  requiredUpgrades:
+  - {fileID: 11400000, guid: 416d8988be3f997409049297dd84f8f0, type: 2}
+  isRepeatable: 1
+  maxStacks: 3
+  target: 7
+  value: 0.1

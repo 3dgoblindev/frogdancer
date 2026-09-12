@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef83780132c8146408bc1f22ef3883af, type: 3}
+  m_Name: TadpoleSpawnTable
+  m_EditorClassIdentifier: Assembly-CSharp::TadpoleSpawnTable
+  entries:
+  - type: {fileID: 11400000, guid: 92e6b8c7144f057499de75f24dc450b5, type: 2}
+    baseWeight: 2
+    weightPerLevel: 0
+    unlockLevel: 0
+  - type: {fileID: 11400000, guid: 79ce4ef145e7d7e46ba4c4e9cc5ebd6b, type: 2}
+    baseWeight: 1
+    weightPerLevel: 0
+    unlockLevel: 0
+  - type: {fileID: 11400000, guid: 79ce4ef145e7d7e46ba4c4e9cc5ebd6b, type: 2}
+    baseWeight: 0.2
+    weightPerLevel: 0
+    unlockLevel: 5
