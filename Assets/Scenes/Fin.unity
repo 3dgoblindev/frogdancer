@@ -756,8 +756,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EndScreenManager
   summaryText: {fileID: 2038920219}
   menuSceneName: Menu
-  lowThreshold: 5
-  midThreshold: 20
+  nextLevelButton: {fileID: 1483550241}
+  nextLevelButtonLabel: {fileID: 719792801}
+  nextLevelButtonText: Born Again
+  lowThreshold: 10
+  midThreshold: 25
   highThreshold: 40
 --- !u!1 &2038920217
 GameObject:

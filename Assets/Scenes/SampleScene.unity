@@ -1422,6 +1422,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UpgradeManager
   upgradePool: {fileID: 11400000, guid: 4f56b6a37cce68140b01bcf09c57f6a8, type: 2}
   optionsPerShop: 3
+  tier1ShopCount: 2
+  tier2ShopCount: 2
 --- !u!4 &706167133
 Transform:
   m_ObjectHideFlags: 0
@@ -2939,8 +2941,8 @@ MonoBehaviour:
   - {fileID: 1875137232}
   - {fileID: 1882659250}
   - {fileID: 1491368839}
-  spawnInterval: 3
-  maxActiveTadpoles: 20
+  spawnInterval: 2.5
+  maxActiveTadpoles: 25
   centerPoint: {fileID: 1280355406}
   tadpoleSavedFeedback: {fileID: 0}
   tadpoleSavedAudio: {fileID: 1379152941}

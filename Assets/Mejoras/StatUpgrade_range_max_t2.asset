@@ -18,9 +18,9 @@ MonoBehaviour:
   icon: {fileID: 0}
   tier: 1
   unlockRound: 3
-  requiredUpgrades:
-  - {fileID: 11400000, guid: 356630530612ed24fafaa49d7a2e201f, type: 2}
+  requiredUpgrades: []
   isRepeatable: 1
-  maxStacks: 4
+  maxStacks: 3
   target: 1
   value: 1
+  secondaryEffects: []

@@ -14,12 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::StatUpgradeSO
   upgradeId: lily_speed_t1
   displayName: Steady Paddle
-  description: Increases lilypad cruise speed.
+  description: Increases lilypad cruise speed (plus a bit of top speed and acceleration
+    so it actually shows).
   icon: {fileID: 0}
   tier: 0
   unlockRound: 1
   requiredUpgrades: []
   isRepeatable: 1
-  maxStacks: 6
+  maxStacks: 3
   target: 8
-  value: 0.5
+  value: 0.6
+  secondaryEffects:
+  - target: 9
+    value: 0.9
+  - target: 10
+    value: 3

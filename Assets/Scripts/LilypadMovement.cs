@@ -126,4 +126,12 @@ public class LilypadMovement : MonoBehaviour
     /// mucho más notable que seguir sumando un valor fijo).
     /// </summary>
     public void MultiplyMoveSpeed(float multiplier) => moveSpeed = Mathf.Max(0f, moveSpeed * multiplier);
+
+    /// <summary>
+    /// Pareja de MultiplyMoveSpeed: sube el tope de velocidad en la misma
+    /// proporción. Sin esto, multiplicar solo moveSpeed puede no notarse en
+    /// absoluto si el resultado sigue quedando por debajo de maxSpeed, o
+    /// notarse solo a medias si lo supera y el clamp de FixedUpdate lo recorta.
+    /// </summary>
+    public void MultiplyMaxSpeed(float multiplier) => maxSpeed = Mathf.Max(moveSpeed, maxSpeed * multiplier);
 }

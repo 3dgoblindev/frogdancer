@@ -20,6 +20,7 @@ MonoBehaviour:
   unlockRound: 1
   requiredUpgrades: []
   isRepeatable: 1
-  maxStacks: 4
+  maxStacks: 2
   target: 7
   value: 0.05
+  secondaryEffects: []

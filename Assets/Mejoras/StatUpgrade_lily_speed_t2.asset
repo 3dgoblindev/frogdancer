@@ -14,13 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::StatUpgradeSO
   upgradeId: lily_speed_t2
   displayName: Strong Paddle
-  description: Increases lilypad cruise speed further.
+  description: Increases lilypad cruise speed further (plus top speed and acceleration).
   icon: {fileID: 0}
   tier: 1
   unlockRound: 3
-  requiredUpgrades:
-  - {fileID: 11400000, guid: 04b87a22cb4b823429101e49e1341de4, type: 2}
+  requiredUpgrades: []
   isRepeatable: 1
-  maxStacks: 4
+  maxStacks: 3
   target: 8
-  value: 1
+  value: 1.2
+  secondaryEffects:
+  - target: 9
+    value: 1.8
+  - target: 10
+    value: 6

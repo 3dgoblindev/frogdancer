@@ -26,7 +26,7 @@ public class RoundManager : MonoBehaviour
     [Header("Rondas")]
     [Tooltip("Duración de cada ronda, en segundos.")]
     [SerializeField] private float roundDuration = 30f;
-    [Tooltip("Número total de rondas que dura una partida. Fijado a 7: T1 disponible siempre, T2 desde la ronda 3, T3 desde la ronda 5, dejando 2-3 rondas de margen para disfrutar de las mejoras de tier alto.")]
+    [Tooltip("Número total de rondas que dura una partida. Fijado a 7: T1 disponible siempre, T2 desde la ronda 2, T3 desde la ronda 4, dejando 2-3 rondas de margen para disfrutar de las mejoras de tier alto (ver UpgradeAssetGenerator).")]
     [SerializeField] private int totalRounds = 7;
 
     [Header("Fin de partida")]
